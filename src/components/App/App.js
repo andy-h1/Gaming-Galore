@@ -24,3 +24,10 @@ function App() {
 }
 
 export default App;
+
+
+//Home Page
+//Streamer Page
+//Gaming Page
+//Adding Firebase
+// 
