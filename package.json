@@ -15,6 +15,7 @@
 		"react-router": "^5.2.0",
 		"react-router-dom": "^5.2.0",
 		"react-scripts": "3.4.1",
+		"styled-components": "^5.1.1",
 		"websocket-extensions": "^0.1.4"
 	},
 	"scripts": {
@@ -42,7 +43,6 @@
 		]
 	},
 	"devDependencies": {
-		"babel-eslint": "9.0.0",
 		"cz-conventional-changelog": "^3.2.0",
 		"eslint": "5.14.1",
 		"eslint-config-airbnb": "17.1.0",

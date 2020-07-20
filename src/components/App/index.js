@@ -4,16 +4,20 @@ import { Header } from '../Header';
 import { HomePage } from '../HomePage';
 import { GamePage } from '../GamePage';
 import { StreamerPage } from '../StreamerPage';
+import * as S from './styles';
 
 const App = () => (
-  <BrowserRouter>
-    <Header />
-    <Switch>
-      <Route exact path="/" component={HomePage} />
-      <Route path="/game" component={GamePage} />
-      <Route path="/streamers" component={StreamerPage} />
-    </Switch>
-  </BrowserRouter>
+  <S.Wrapper>
+    <BrowserRouter>
+      <S.GlobalStyle />
+      <Header />
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route path="/game" component={GamePage} />
+        <Route path="/streamers" component={StreamerPage} />
+      </Switch>
+    </BrowserRouter>
+  </S.Wrapper>
 );
 
 export default App;
