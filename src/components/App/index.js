@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Header from '../Header';
+import { Header } from '../Header';
 import { HomePage } from '../HomePage';
 import { GamePage } from '../GamePage';
 import { StreamerPage } from '../StreamerPage';
