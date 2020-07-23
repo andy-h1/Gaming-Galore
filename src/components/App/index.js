@@ -13,7 +13,7 @@ const App = () => (
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/game" component={GamePage} />
+        <Route path="/games" component={GamePage} />
         <Route path="/streamers" component={StreamerPage} />
       </Switch>
     </BrowserRouter>

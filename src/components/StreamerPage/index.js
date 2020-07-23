@@ -8,3 +8,9 @@ export const StreamerPage = () => (
     <AddStreamer />
   </div>
 );
+
+//User adds streamer name on the input bar
+// Onclick name is then passed into a function 
+// Function renders out a div containing streamer's name, Twitch Page, Tweet Timeline
+//Function then displays that on the streamer page
+// Data is updated on Firebase

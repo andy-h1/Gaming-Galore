@@ -1,11 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import { SignedInLinks } from '../SignedInLinks';
+import { SignedOutLinks } from '../SignedOutLinks';
 import * as S from './styles';
 
 export const Header = () => (
   <S.Header>
-    <Link to="/">home</Link>
-    <Link to="/game">games</Link>
-    <Link to="/streamers">streamers</Link>
+    <NavLink to="/">Gaming Galore</NavLink>
+    <SignedInLinks />
+    <SignedOutLinks />
   </S.Header>
 );
